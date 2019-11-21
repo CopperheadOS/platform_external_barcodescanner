@@ -1,6 +1,7 @@
  LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
+LOCAL_USE_AAPT2 := true
 LOCAL_PRIVATE_PLATFORM_APIS := true
 LOCAL_MODULE := dm7-zxing
 LOCAL_SRC_FILES := $(call all-java-files-under, zxing/src/main/java)
